@@ -1,0 +1,17 @@
+{
+    "name": "juliana.nsantos38/php-api-jucapizza-refatorado",
+    "description": "Projeto pedagógico para demonstrar a criação de APIS",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "JulianaNsantos38\\PhpApiJucapizzaRefatorado\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juliana Nascimento dos Santos",
+            "email": "juliana_jns_2010@hotmail.com"
+        }
+    ],
+    "require": {}
+}
