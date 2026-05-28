@@ -1,6 +1,10 @@
 <?php
 namespace JulianaNsantos38\PhpApiJucapizzaRefatorado\Config;
 
+use PDO;
+use PDOException;
+use Throwable;
+
 class Database {
     private $host = "localhost";
      private $db_name = "jucapizzasdb";
@@ -41,7 +45,7 @@ class Database {
         // código a ser executado se ocorrer um erro
         //Em caso de erro na conxeão, a mensagem de erro é exibida
         echo "Connection error: " . $e->getMessage();
-    }catch(Exception $e) {
+    }catch(PDOException $e) {
         echo "Erro Conexao: " . $e->getMessage();
     }
     catch(Throwable $e) {

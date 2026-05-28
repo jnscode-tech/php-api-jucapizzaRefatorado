@@ -1,6 +1,7 @@
 <?php
  
  namespace JulianaNsantos38\PhpApiJucapizzaRefatorado\Models;
+ use PDO;
 
 class Pizza {
 
